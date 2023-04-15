@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Favorites</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="./js/main.js" type="module" defer></script>
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>Github Favorites</h1>
+            <div class="search">
+                <label class="sr-only" for="input-search">digite</label>
+                <input id="input-search" type="text" placeholder="Usuario do Github">
+                <button>&plus;</button>
+            </div>
+        </header>
+        <table>
+            <thead>
+                <tr>
+                    <th>Usuario</th>
+                    <th>Repositorios</th>
+                    <th>Seguidores</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="user">
+                        <img src="https://avatars.githubusercontent.com/u/103895752?v=4" alt="">
+                        <a href="" target="_blank">
+                            <p>Pedro</p>
+                            <span>Pedroasas</span>
+                        </a>
+                    </td>
+                    <td class="repository">
+                        12
+                    </td>
+                    
+                    <td class="followers">
+                        4324
+                    </td>
+
+                    <td>
+                        <button class="remove">&times;</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="user">
+                        <img src="" alt="">
+                        <a href="" target="_blank">
+                            <p>Joao</p>
+                            <span>joaozera</span>
+                        </a>
+                    </td>
+                    <td class="repository">
+                        124
+                    </td>
+                    
+                    <td class="followers">
+                        123411
+                    </td>
+
+                    <td>
+                        <button class="remove">&times;</button>
+                    </td>
+                </tr>
+            </tbody>
+            
+        </table>
+    </div>
+</body>
+</html>
